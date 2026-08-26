@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uma surpresa para a Poli 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <div class="petalas"></div>
+
+    <main>
+
+        <!-- =========================================
+             SENHA DE ENTRADA
+        ========================================== -->
+
+        <section id="senhaEntrada" class="tela ativa">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        ACESSO BLOQUEADO
+                    </p>
+
+                    <h1>
+                        Uma surpresa te espera...
+                    </h1>
+
+                    <p class="texto-fofo">
+                        Digite a senha secreta para entrar 🌷
+                    </p>
+
+                    <input
+                        type="text"
+                        id="inputSenhaEntrada"
+                        class="campo-senha"
+                        placeholder="Digite a senha..."
+                        autocomplete="off"
+                    >
+
+                    <p
+                        id="erroSenhaEntrada"
+                        class="mensagem-erro"
+                    ></p>
+
+                    <button id="botaoSenhaEntrada">
+                        Entrar ▶
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             ABERTURA
+        ========================================== -->
+
+        <section id="inicio" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        AVENTURA DESBLOQUEADA
+                    </p>
+
+                    <h1>
+                        Aniversário da Poli
+                    </h1>
+
+                    <img
+                        src="imagens/poli-real.jpg"
+                        alt="Foto da Poli"
+                        class="foto-abertura"
+                    >
+
+                    <p class="texto-fofo">
+                        Uma aventura especial está prestes a começar ✨
+                    </p>
+
+                    <button id="botaoComecar">
+                        Começar ▶
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MISSÃO
+        ========================================== -->
+
+        <section id="missao" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        NOVA MISSÃO
+                    </p>
+
+                    <h2>
+                        Comemorar o aniversário da Poli
+                    </h2>
+
+                    <p class="texto-fofo">
+                        Objetivo: desbloquear memórias,
+                        carinho, risadas e momentos especiais 💗
+                    </p>
+
+                    <div class="recompensa">
+                        🎁 Recompensa: surpresa especial
+                    </div>
+
+                    <button id="botaoMissao">
+                        Aceitar missão ▶
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             SENHA DO LEVEL 20
+        ========================================== -->
+
+        <section id="senhaLevel" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        ÁREA BLOQUEADA
+                    </p>
+
+                    <h2>
+                        Próximo nível protegido 🔐
+                    </h2>
+
+                    <p class="texto-fofo">
+                        Digite a palavra secreta para continuar.
+                    </p>
+
+                    <input
+                        type="text"
+                        id="inputSenhaLevel"
+                        class="campo-senha"
+                        placeholder="Digite a senha..."
+                        autocomplete="off"
+                    >
+
+                    <p
+                        id="erroSenhaLevel"
+                        class="mensagem-erro"
+                    ></p>
+
+                    <button id="botaoSenhaLevel">
+                        Desbloquear ▶
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             LEVEL 20
+        ========================================== -->
+
+        <section id="levelUp" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <div class="estrela">
+                        ⭐
+                    </div>
+
+                    <h2>
+                        LEVEL UP!
+                    </h2>
+
+                    <h1>
+                        POLI
+                    </h1>
+
+                    <p class="texto-fofo destaque-aniversario">
+                        🎂 Nível 20 desbloqueado!
+                    </p>
+
+                    <div class="barra-decorativa">
+
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+                        <div class="quadradinho ativo"></div>
+
+                    </div>
+
+                    <button id="botaoMemorias">
+                        Explorar memórias 💗
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 1
+        ========================================== -->
+
+        <section id="memoria1" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 01
+                    </p>
+
+                    <h2>
+                        O dia que a gente quase ficou presa na faculdade
+                    </h2>
+
+                    <img
+                        src="imagens/foto1.jpeg"
+                        alt="Memória 1"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            O dia que a gente quase ficou presa na faculdade KKKKKKK.
+                            Esquecemos o cartão de passagem e ainda deixamos nossas coisas lá no Leste.
+                        </p>
+
+                        <p>
+                            Isso foi bem no comecinho da nossa bolsa com o professor
+                            e até hoje eu lembro do tanto que esse dia foi engraçado e divertido.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria1"
+                            class="botao-secundario"
+                        >
+                            ◀ Level 20
+                        </button>
+
+                        <button id="botaoMemoria1">
+                            Próxima memória ▶
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 2
+        ========================================== -->
+
+        <section id="memoria2" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 02
+                    </p>
+
+                    <h2>
+                        O dia da toca no InfoGeo
+                    </h2>
+
+                    <img
+                        src="imagens/foto2.jpeg"
+                        alt="Memória 2"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            Esse dia foi MUITO engraçado KKKKK.
+                            Do nada vc tirou uma toca da bolsa,
+                            botou na cabeça e eu simplesmente não tankei.
+                        </p>
+
+                        <p>
+                            A gente ficou ali no InfoGeo jogando conversa fora
+                            e rindo de besteira. Foi muito divertido.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria2"
+                            class="botao-secundario"
+                        >
+                            ◀ Anterior
+                        </button>
+
+                        <button id="botaoMemoria2">
+                            Próxima memória ▶
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 3
+        ========================================== -->
+
+        <section id="memoria3" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 03
+                    </p>
+
+                    <h2>
+                        O dia da máscara no Meet
+                    </h2>
+
+                    <img
+                        src="imagens/foto3.jpeg"
+                        alt="Memória 3"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            Essa é bem mais recente, né? KKKKK.
+                            Eu sinceramente nem lembro direito pq a gente tava nessa ligação no Meet,
+                            mas lembro perfeitamente de vc com a máscara de tratamento no rosto KKKKK.
+                        </p>
+
+                        <p>
+                            Esse momento rendeu vários memes internos pra gente e eu amo isso.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria3"
+                            class="botao-secundario"
+                        >
+                            ◀ Anterior
+                        </button>
+
+                        <button id="botaoMemoria3">
+                            Próxima memória ▶
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 4
+        ========================================== -->
+
+        <section id="memoria4" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 04
+                    </p>
+
+                    <h2>
+                        Mais uma das nossas aventuras pela Lapa
+                    </h2>
+
+                    <img
+                        src="imagens/foto4.jpeg"
+                        alt="Memória 4"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            Essa tbm é meio recente,
+                            acho que foi no final do semestre,
+                            nem lembro direito KKKKK.
+                            Mas foi muito divertida,
+                            mais uma das nossas aventuras de sempre,
+                            andando pela Lapa,
+                            comendo um lanchinho e jogando conversa fora.
+                        </p>
+
+                        <p>
+                            É muito bom ter esses momentos com vcs.
+                            Nessas coisas simples eu sinto de verdade
+                            que sou feliz, literalmente.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria4"
+                            class="botao-secundario"
+                        >
+                            ◀ Anterior
+                        </button>
+
+                        <button id="botaoMemoria4">
+                            Próxima memória ▶
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 5
+        ========================================== -->
+
+        <section id="memoria5" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 05
+                    </p>
+
+                    <h2>
+                        O dia que a gente faltou aula e eu quase fui sequestrada
+                    </h2>
+
+                    <img
+                        src="imagens/foto5.jpeg"
+                        alt="Memória 5"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            Esse dia foi TUDO KKKKKKK.
+                            Vc faltou Geografia da Saúde
+                            e a gente faltou aquela aula da diva
+                            que dava um sono absurdo.
+                        </p>
+
+                        <p>
+                            Depois a gente saiu andando
+                            e foi justamente o dia
+                            que eu quase fui sequestrada KKKKK,
+                            lembra?
+                            A mulher simplesmente me puxou pra dentro da loja.
+                        </p>
+
+                        <p>
+                            Foi muito engraçado e muito divertido, velho.
+                            Enfim, eu amo guardar esses momentos com vcs,
+                            pq eles são simplesmente maravilhosos.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria5"
+                            class="botao-secundario"
+                        >
+                            ◀ Anterior
+                        </button>
+
+                        <button id="botaoMemoria5">
+                            Próxima memória ▶
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MEMÓRIA 6
+        ========================================== -->
+
+        <section id="memoria6" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        MEMÓRIA 06
+                    </p>
+
+                    <h2>
+                        O dia que a gente foi na casa do professor
+                    </h2>
+
+                    <img
+                        src="imagens/foto6.jpeg"
+                        alt="Memória 6"
+                        class="foto-memoria"
+                    >
+
+                    <div class="legenda-memoria">
+
+                        <p>
+                            E pra finalizar,
+                            pq são MUITAS fotos,
+                            muitos momentos vividos
+                            e muita coisa maravilhosa pra lembrar KKKKK.
+                            Essa foi uma das nossas aventuras:
+                            o dia que a gente foi na casa do professor.
+                        </p>
+
+                        <p>
+                            Foi muito engraçado,
+                            a gente sem saber direito como agir,
+                            olhando aquele prédio gigante
+                            e sem nem saber se comportar direito KKKKK.
+                            Mas no fim a gente conseguiu se virar
+                            e foi um dia muito bom e muito divertido.
+                        </p>
+
+                        <p>
+                            E ainda teve essa pérola, né?
+                            A gente levando bolo pra casa KKKKKKK.
+                            A esposa do professor fez
+                            e a gente simplesmente voltou
+                            com a vasilha de bolo, foi PUNK.
+                            Enfim, só mais um dos muitos momentos
+                            que eu guardo com muito carinho.
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarMemoria6"
+                            class="botao-secundario"
+                        >
+                            ◀ Anterior
+                        </button>
+
+                        <button id="botaoMemoria6">
+                            Ler minha carta 💌
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CARTA
+        ========================================== -->
+
+        <section id="carta" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        VOCÊ RECEBEU UMA CARTA 💌
+                    </p>
+
+                    <div class="carta">
+
+                        <div class="cabecalho-carta">
+
+                            <span>🌸</span>
+
+                            <p>
+                                Para a Poli
+                            </p>
+
+                            <span>🌸</span>
+
+                        </div>
+
+                        <p>
+                            Poli, amg, quem diria que seria possível encontrar uma amizade como a sua na faculdade,
+                            onde dizem que é cada um por si, né?
+                            Mas depois que a gente se juntou,
+                            o nosso grupinho inteiro,
+                            parece que a gente não consegue mais viver separado KKKKK.
+                        </p>
+
+                        <p>
+                            É tão bom passar os dias com vcs e,
+                            principalmente, dividir tanta coisa com vc.
+                            A rotina da faculdade fica muito mais leve,
+                            divertida e especial.
+                            Cada dia que a gente ri,
+                            brinca, se zoa e passa horas juntas
+                            é um daqueles momentos que eu sinto
+                            que nunca vou conseguir esquecer.
+                            E parte disso é pq vc me permitiu ser sua amg.
+                            Nossa amizade faz parte de tantas lembranças boas
+                            que eu tô construindo nessa fase da minha vida,
+                            e eu agradeço muito por isso.
+                        </p>
+
+                        <p>
+                            E não só de faculdade vive a nossa amizade, né? KKKKK.
+                            Tem tbm todo o apoio que a gente dá uma pra outra
+                            quando para pra conversar,
+                            quando alguma coisa tá ruim,
+                            quando a vida pesa,
+                            quando a gente fala sobre a gente,
+                            sobre nossas famílias,
+                            nossas preocupações e tudo mais.
+                            Eu sei que posso contar com vc,
+                            assim como vc pode contar comigo,
+                            e isso pra mim vale MUITO.
+                        </p>
+
+                        <p>
+                            Cada mínimo detalhe, sabe?
+                            Passar o dia com vc,
+                            a semana,
+                            conversar,
+                            rir,
+                            nossas ligações,
+                            os trabalhos que a gente faz juntas,
+                            as conversas aleatórias,
+                            as besteiras…
+                            tudo isso é muito especial pra mim.
+                            Eu guardo essas coisas bem no fundo do meu coração,
+                            num lugar muito protegido,
+                            pq sinto que esses momentos
+                            são alguns daqueles
+                            em que eu realmente consigo sorrir
+                            e ser feliz de verdade,
+                            pq tenho vc
+                            e tenho as meninas do meu lado.
+                        </p>
+
+                        <p>
+                            A sua risada,
+                            suas piadas,
+                            nossas brincadeiras
+                            e todas as besteiras que a gente fala
+                            ocupam um lugar muito especial no meu coração.
+                            E eu espero muito
+                            que nossa amizade continue se fortalecendo cada vez mais
+                            e que a gente ainda tenha MUITA coisa pra viver juntas.
+                        </p>
+
+                        <p>
+                            Cada momento compartilhado,
+                            seja feliz ou triste,
+                            pq às vezes a depressão bate,
+                            né amg? KKKKK,
+                            saiba que eu vou estar aqui pra vc
+                            sempre que precisar.
+                            Nas horas boas,
+                            nas ruins,
+                            pra conversar,
+                            reclamar da vida,
+                            rir de besteira
+                            ou simplesmente jogar nosso joguinho favorito.
+                            Pode contar comigo sempre.
+                        </p>
+
+                        <p>
+                            É muito incrível ter uma amg como vc
+                            e poder compartilhar tanta coisa contigo.
+                            Muito obrigada por tudo, amg.
+                            Eu te amo
+                            e espero que nossa amizade dure por muito,
+                            muito, MUITO tempo.
+                        </p>
+
+                        <p>
+                            Que nossas loucuras
+                            e aventuras do dia a dia continuem,
+                            seja só entre a gente,
+                            com o nosso grupinho
+                            ou até com o nosso orientador
+                            no meio das confusões KKKKK.
+                            E que a gente continue se ajudando,
+                            crescendo
+                            e conquistando muitas coisas juntas.
+                        </p>
+
+                        <p>
+                            Muito obrigada por ser uma parte tão especial da minha vida
+                            e por tornar tantos dias melhores
+                            só por estar ali.
+                            Feliz dia, amg.
+                            Te amo demais.
+                        </p>
+
+                        <p class="assinatura-final">
+                            Feliz aniversário, Poli! ❤️
+                        </p>
+
+                    </div>
+
+                    <div class="botoes-navegacao">
+
+                        <button
+                            id="voltarCarta"
+                            class="botao-secundario"
+                        >
+                            ◀ Voltar
+                        </button>
+
+                        <button id="botaoCarta">
+                            Ver surpresa final ✨
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             TELA FINAL
+        ========================================== -->
+
+        <section id="final" class="tela">
+
+            <div class="cenario">
+
+                <div class="caixa-jogo">
+
+                    <p class="texto-pixel pequeno">
+                        PERSONAGEM ESPECIAL DESBLOQUEADA
+                    </p>
+
+                    <h2>
+                        Poli 💗
+                    </h2>
+
+                    <img
+                        src="imagens/poli-pixel.png"
+                        alt="Poli em pixel art"
+                        class="foto-final"
+                    >
+
+                    <p class="texto-fofo">
+                        Feliz aniversário! ✨
+                    </p>
+
+                    <button id="botaoReiniciar">
+                        ⮌ Voltar ao início
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
